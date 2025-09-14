@@ -80,7 +80,7 @@ function Hero() {
   setActiveData(data);
  };
   return <>
-  <section className='bg-brandDark text-white font-varela' id='Home'>
+  <section className='bg-brandDark text-white font-varela mt-16' id='Home'>
     <div className="container grid grid-cols-1 md:grid-cols-2 min-h-[700px]:">
     {/* HeadPhone Info */}
     <div className='flex flex-col justify-center py-14 md:py-0 xl:max-w-[500px]:'>

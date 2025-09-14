@@ -5,7 +5,9 @@ import Services from '../Services/Services'
 import Banner from '../Banner/Banner'
 import BannerText from '../Banner/BannerText'
 import Blog from '../Blog/Blog'
+// import Audio from '../Audio/Audio'
 import Footer from '../Footer/Footer'
+// import AudioPlayerPage from '../Audio/Audio'
 
 
 function Home() {
@@ -17,6 +19,7 @@ function Home() {
     <Banner/>
     <BannerText/>
     <Blog/>
+    
     <Footer/>
   </main>
 
