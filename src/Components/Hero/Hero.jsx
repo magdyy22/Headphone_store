@@ -4,8 +4,10 @@ import Headphone1 from '../../images/assets/headphone.png'
 import Headphone2 from '../../images/assets/headphone2.png'
 import Headphone3 from '../../images/assets/headphone3.png'
 import { FaWhatsapp } from 'react-icons/fa'
+import { FaAngleDoubleUp } from 'react-icons/fa';
 // eslint-disable-next-line no-unused-vars
 import {  AnimatePresence, delay, easeInOut, easeOut, motion } from 'framer-motion'
+import { Link } from 'react-scroll'
 
 
 const fadeUp = (delay) => {
@@ -161,9 +163,13 @@ function Hero() {
     </div>
     {/* WhatsApp Icon */}
         <div >
-          <a href="t" className=''>
-            <FaWhatsapp className='text-3xl  fixed bottom-10 right-10 hover:rotate-[360deg] duration-500 z-[999] mix-blend-difference'/>
-          </a>
+          <Link to='Home' smooth={true} duration={700} href='#'><a href="t" className=''>
+            {/* <FaWhatsapp className='text-3xl  fixed bottom-10 right-10 hover:rotate-[360deg] duration-500 z-[999] mix-blend-difference'/>
+             */}
+             <FaAngleDoubleUp className='text-3xl  fixed bottom-10 right-10 hover:rotate-[360deg] duration-500 z-[999] mix-blend-difference'/>
+            
+          </a></Link>
+          
         </div>
 
     </div>
