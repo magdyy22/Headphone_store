@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Headphone_store/static/css/main.189b15de.css",
-    "main.js": "/Headphone_store/static/js/main.23da42c8.js",
+    "main.css": "/Headphone_store/static/css/main.c84e62de.css",
+    "main.js": "/Headphone_store/static/js/main.b8a7e79b.js",
     "static/js/453.cd47e056.chunk.js": "/Headphone_store/static/js/453.cd47e056.chunk.js",
     "static/media/headphone4.png": "/Headphone_store/static/media/headphone4.9dcdc5fcedd1f23f90e4.png",
     "static/media/headphone.png": "/Headphone_store/static/media/headphone.8fea910002f295b1030e.png",
@@ -16,12 +16,12 @@
     "static/media/blog3.jpg": "/Headphone_store/static/media/blog3.f6b24b0068c2775e4b42.jpg",
     "static/media/credit-cards.webp": "/Headphone_store/static/media/credit-cards.1286c81286ff46226507.webp",
     "index.html": "/Headphone_store/index.html",
-    "main.189b15de.css.map": "/Headphone_store/static/css/main.189b15de.css.map",
-    "main.23da42c8.js.map": "/Headphone_store/static/js/main.23da42c8.js.map",
+    "main.c84e62de.css.map": "/Headphone_store/static/css/main.c84e62de.css.map",
+    "main.b8a7e79b.js.map": "/Headphone_store/static/js/main.b8a7e79b.js.map",
     "453.cd47e056.chunk.js.map": "/Headphone_store/static/js/453.cd47e056.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.189b15de.css",
-    "static/js/main.23da42c8.js"
+    "static/css/main.c84e62de.css",
+    "static/js/main.b8a7e79b.js"
   ]
 }

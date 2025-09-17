@@ -63,7 +63,7 @@ function Services() {
   whileInView="show"
   className='text-3xl font-bold text-center pb-10'>SERVICES</motion.h1>
 
-<div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 '>
+<div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3'>
   {servicesData.map((item,idx)=>{
     return <motion.div 
     variants={fadeUp(item.delay)}

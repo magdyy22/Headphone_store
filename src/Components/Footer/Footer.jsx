@@ -3,6 +3,7 @@ import { FaFacebook, FaGoogle, FaInstagram, FaPhone, FaTelegram,} from 'react-ic
 import { FaMapLocation } from 'react-icons/fa6'
 import  cards from '../../images/assets/credit-cards.webp'
 import { motion } from 'framer-motion' 
+import { Link } from 'react-scroll'
 
 function Footer() {
   return <>
@@ -21,12 +22,12 @@ function Footer() {
           numquam dolores
           </p>
           <div>
-            <p className='flex items-center gap-2'>
-                <FaPhone className='text-2xl'/> +1 (123) 456-7890
-            </p>
-            <p className='flex items-center gap-2 mt-2'>
+            <Link href='#'><p className='flex items-center gap-2'>
+               <FaPhone className='text-2xl'/> +1 (123) 456-7890 
+            </p></Link>
+           <Link href='#'> <p className='flex items-center gap-2 mt-2'>
               <FaMapLocation className='text-2xl'/> 123 Main St, Anytown
-            </p>
+            </p></Link>
           </div>
       </motion.div>
       {/* footer links section */}
@@ -38,20 +39,20 @@ function Footer() {
         <h2 className="text-3xl font-bold uppercase">Quick Links</h2>
         <div className='grid grid-cols-1 sm:grid-cols-2 gap-3'>
           <div>
-          <ul className='space-y-2'>
-            <li>Home</li>
-            <li>About</li>
-            <li>Contact Us</li>
-            <li>Privacy Policy</li>
+          <ul>
+           <Link href='#'><li className='mb-2'>Home</li></Link> 
+           <Link href='#'><li className='mb-2'>About</li></Link> 
+           <Link href='#'><li className='mb-2'>Contact Us</li></Link> 
+           <Link href='#'><li>Privacy Policy</li></Link> 
           </ul>
         </div>
 
         <div>
-          <ul className='space-y-2'>
-            <li>Home</li>
-            <li>About</li>
-            <li>Contact Us</li>
-            <li>Privacy Policy</li>
+          <ul>
+            <Link href='#'><li className='mb-2'>Home</li></Link> 
+           <Link href='#'><li className='mb-2'>About</li></Link> 
+           <Link href='#'><li className='mb-2'>Contact Us</li></Link> 
+           <Link href='#'><li>Privacy Policy</li></Link>
           </ul>
         </div>
         </div>
@@ -65,10 +66,10 @@ function Footer() {
       className='space-y-6'>
         <h2 className="text-3xl font-bold uppercase">Follow Us</h2>
         <div className='flex items-center gap-3'>
-          <FaFacebook className='text-3xl hover:scale-105 duration-300'/>
-          <FaInstagram className='text-3xl hover:scale-105 duration-300'/>
-          <FaTelegram className='text-3xl hover:scale-105 duration-300'/>
-          <FaGoogle className='text-3xl hover:scale-105 duration-300'/>
+          <FaFacebook className='text-3xl hover:scale-105 duration-300' style={{color:"#1877f2"}}/>
+          <FaInstagram className='text-3xl hover:scale-105 duration-300' style={{color:"#e1306c"}}/>
+          <FaTelegram className='text-3xl hover:scale-105 duration-300' style={{color:"#0088cc"}}/>
+          <FaGoogle className='text-3xl hover:scale-105 duration-300' style={{color:"#fbbc05"}}/>
         </div>
         <div className='space-y-2'>
           <p>Payment Methods</p>

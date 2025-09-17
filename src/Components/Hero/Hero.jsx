@@ -3,7 +3,6 @@ import React, { useState } from 'react'
 import Headphone1 from '../../images/assets/headphone.png'
 import Headphone2 from '../../images/assets/headphone2.png'
 import Headphone3 from '../../images/assets/headphone3.png'
-import { FaWhatsapp } from 'react-icons/fa'
 import { FaAngleDoubleUp } from 'react-icons/fa';
 // eslint-disable-next-line no-unused-vars
 import {  AnimatePresence, delay, easeInOut, easeOut, motion } from 'framer-motion'
@@ -82,7 +81,7 @@ function Hero() {
   setActiveData(data);
  };
   return <>
-  <section className='bg-brandDark text-white font-varela mt-16' id='Home'>
+  <section className='bg-brandDark text-white font-varela mt-20' id='Home'>
     <div className="container grid grid-cols-1 md:grid-cols-2 min-h-[700px]:">
     {/* HeadPhone Info */}
     <div className='flex flex-col justify-center py-14 md:py-0 xl:max-w-[500px]:'>
@@ -161,13 +160,9 @@ function Hero() {
       </AnimatePresence>
       
     </div>
-    {/* WhatsApp Icon */}
         <div >
           <Link to='Home' smooth={true} duration={700} href='#'><a href="t" className=''>
-            {/* <FaWhatsapp className='text-3xl  fixed bottom-10 right-10 hover:rotate-[360deg] duration-500 z-[999] mix-blend-difference'/>
-             */}
-             <FaAngleDoubleUp className='text-3xl  fixed bottom-10 right-10 hover:rotate-[360deg] duration-500 z-[999] mix-blend-difference'/>
-            
+             <FaAngleDoubleUp className='text-3xl  fixed bottom-10 right-10 hover:rotate-[360deg] duration-500 z-[999]' style={{color:"brown"}}/>
           </a></Link>
           
         </div>

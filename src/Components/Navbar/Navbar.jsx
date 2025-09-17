@@ -64,9 +64,9 @@ const Navbar = () => {
               <Link to="Contact" smooth={true} duration={700}>
                 <li className="cursor-pointer">Contact</li>
               </Link>
-              <button className="text-xl ps-4">
+             <Link to="Music" smooth={true} duration={700} href="#"> <button className="text-xl ps-4">
                 <SlEarphones />
-              </button>
+              </button></Link>
             </ul>
           </nav>
 
