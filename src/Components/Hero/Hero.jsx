@@ -102,11 +102,11 @@ function Hero() {
         exit="exit" className='text-sm leading-loose text-white/80'>{activeData.subtitle}</motion.p>
       </AnimatePresence>
       <AnimatePresence mode='wait'>
-        <motion.button key={activeData.id}
+       <Link to='Music' href='#' smooth={true} duration={900}> <motion.button key={activeData.id}
         variants={fadeUp(0.2)}
         initial="hidden"
         animate="show"
-        exit="exit" style={{backgroundColor:activeData.bgColor}} className='px-4 py-2 inline-block font-normal rounded-xl'>Listen And Buy</motion.button>
+        exit="exit" style={{backgroundColor:activeData.bgColor}} className='px-4 py-2 inline-block font-normal rounded-xl'>Listen And Buy</motion.button></Link>
       </AnimatePresence>
         
 
