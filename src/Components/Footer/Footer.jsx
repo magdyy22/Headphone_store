@@ -66,10 +66,10 @@ function Footer() {
       className='space-y-6'>
         <h2 className="text-3xl font-bold uppercase">Follow Us</h2>
         <div className='flex items-center gap-3'>
-          <FaFacebook className='text-3xl hover:scale-105 duration-300' style={{color:"#1877f2"}}/>
-          <FaInstagram className='text-3xl hover:scale-105 duration-300' style={{color:"#e1306c"}}/>
-          <FaTelegram className='text-3xl hover:scale-105 duration-300' style={{color:"#0088cc"}}/>
-          <FaGoogle className='text-3xl hover:scale-105 duration-300' style={{color:"#fbbc05"}}/>
+         <Link href='#'><FaFacebook className='text-3xl hover:scale-105 duration-300' style={{color:"#1877f2"}}/></Link>
+         <Link href='#'><FaInstagram className='text-3xl hover:scale-105 duration-300' style={{color:"#e1306c"}}/></Link>
+         <Link href='#'><FaTelegram className='text-3xl hover:scale-105 duration-300' style={{color:"#0088cc"}}/></Link>
+         <Link href='#'><FaGoogle className='text-3xl hover:scale-105 duration-300' style={{color:"#fbbc05"}}/></Link>
         </div>
         <div className='space-y-2'>
           <p>Payment Methods</p>
